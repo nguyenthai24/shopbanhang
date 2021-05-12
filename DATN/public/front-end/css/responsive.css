@@ -1,0 +1,163 @@
+@media (max-width: 576px) {
+	.header .header_top  .left ul li a {
+		font-size: 12px;
+		padding: 9px;
+	}
+	.header .header_top  .left ul li {
+		margin-left: 14px;
+	}
+	.header .header_top .right ul {
+		margin-right: 25px;
+	}
+	.header .header-mid .logo {
+		margin: 10px 60px;
+	}
+	.header .header-mid .logo a:hover{
+	color: black;
+	opacity: 1;
+	}
+	.header .header-mid .shop-menu ul {
+    	margin-top: 70px;    margin-left: 19px;
+    	
+	}
+	.header .header-mid .shop-menu ul  li {
+		padding: 0px;
+
+			}
+	.header .header-mid .shop-menu ul  li a{
+		font-size: 13px;
+    	padding: 10px;
+	}
+	.header .header-mid .shop-menu ul  li a i.fa-user {
+		margin-left: 8px;
+	}
+	.header .header-mid .shop-menu ul  li a i.fa-star {
+		margin-left: 5px;
+	}
+	.header .header-mid .shop-menu ul  li a i.fa-crosshairs {
+		padding-left: 10px;
+	}
+	.header .header-mid .shop-menu ul  li a i.fa-shopping-cart {
+		margin-left: -4px;
+	}
+	.header .header-mid .shop-menu ul  li a i.fa-lock {
+		padding-left: 1px;
+	}
+	.hr {
+	 	margin-top: -20px;
+   		 margin-bottom: 24px;
+	}
+	
+	.header .header-menu .phai{
+		border: 1px solid;
+    	margin-left: -17px;
+    	margin-top: 60px;
+	}
+	
+	.header .header-menu ul.mphai {
+	border: 1px solid;
+    /* margin-left: -17px; */
+    width: 100%;
+    /* color: #ccc; */
+    background: #ccc;
+	}
+	nav.navbar {
+		position: relative;
+	}
+	.header .header-menu .mphai  li {
+
+	}
+	.header .header-menu .mphai a.nav-link {
+		text-align:center;
+		padding: 10px 0px;
+	}
+	.header .header-menu .mphai a.nav-link:hover{
+		color: red;
+	}
+	.header .header-menu .form-control {
+		height: 40px;
+    	margin-top: 22px;
+
+	}
+	.header .header-menu .form-inline .btn {
+		margin-left: 11px;
+    	margin-right: -13px;
+	}
+	.header .header-menu .form-inline {
+		display: flex;
+	}
+	.main .right .sanpham .right ul {
+
+	}
+	.main .right .sanpham .right ul li {
+
+	}
+	.main .right .sanpham .right ul li:last-child {
+		    margin-right: -26px;
+	}
+	.main .right .sanpham .right ul li a {
+    padding: 0px;
+	}
+	.main .right .sanpham .right ul li a:last-child {
+    margin-right: 19px;
+	}
+	.main .right .content-product .item-product {
+
+	}
+	.main .right .content-product .item-product .info-product .price  {
+		padding-left: 17px;
+	}
+	.main .right .content-product .item-product .info-product button {
+		margin-left: 88px;
+	}
+	.category-tab .tab-content .active {
+		display: block;
+	}
+}
+/*rensponsive product-details*/
+@media (max-width: 576px) {
+	.details-product{
+		display: block;
+	}
+	#place-img {
+		width: 100%;
+	}
+	.details-product .view-product ul li img {
+		    width: 100%;
+	}
+	.details-product .info-product {
+		width: 100%;
+		margin-top: 20px;
+	}
+	.details-product .info-product p {
+		margin-left: 1px;
+}
+.details-product .info-product .rating {
+	    margin-left: 1px;
+
+}
+.details-product .info-product .rating span {
+	    margin-left: 1px;
+}
+
+.details-product .info-product span.price {
+	    margin-left: 1px;
+}
+
+.details-product .info-product button.cart {
+	    margin-left: 100px;
+}
+}
+
+/*responsive cart*/
+@media (max-width: 576px) {
+	.main .cart-checkout .chose_area ul.user_info {
+		display: block;
+	}
+	.main .cart-checkout .total_area ul li {
+		margin-left: 8px;
+	}
+	.main .cart-checkout .total_area {
+		margin-bottom: 40px;
+	}
+}
